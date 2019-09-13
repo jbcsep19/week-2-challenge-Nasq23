@@ -4,11 +4,11 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Random random = new Random();
-        int ricer, beansr, meatr, salsar, veggiesr,cheeser,guacr,quesor,sourcreamr;
+        int ricer, beansr, meatr, salsar, veggiesr;
 
         String[] burritos = new String[10];
 
-        //Make these options versitile but random
+        //Make these options versitile but in random
 
 
         String[] rice = {"white rice", "brown rice", "no rice", "all rice options"};
@@ -18,12 +18,12 @@ public class Main {
         String[] veggies = {"lettuce", "fajita veggies", "no veggies", "all veggie options"};
 
 
-
         //Choose these option in random form for each
 
 
         for (int i = 0; i < burritos.length; i++)
         {
+
 
             ricer = random.nextInt(rice.length);
             meatr = random.nextInt(meat.length);
